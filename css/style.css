@@ -1,0 +1,105 @@
+table, td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  body > table{
+    width: 80%;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+thead {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+ tbody tr {
+    background-color: rgba(250, 50, 50, 0.9);
+    border-bottom: 1px solid #dddddd;
+}
+
+ tbody tr:nth-of-type(even) {
+    background-color: rgba(50, 250, 50, 0.9)
+}
+
+ tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+input{
+    width: 5vw;
+}
+#deleteBbtn{
+    width: 5vw;
+    border-radius: 10px;
+    background-color: rgba(21, 104, 124, 0.9);
+    color:seashell
+}
+#editBbtn{
+    width: 5vw; 
+    border-radius: 10px;
+    background-color: rgba(50, 50, 250, 0.9);
+    color:seashell
+}
+#confirmBbtn{
+    width: 5vw; 
+    border-radius: 10px;
+    background-color: rgba(50, 250, 50, 0.9);
+}
+#cancelBbtn{
+    width: 5vw; 
+    border-radius: 10px;
+    background-color: rgba(184, 206, 61, 0.9);
+}
+#categories{
+    top:0;
+    left: 2vw;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

@@ -1,0 +1,19 @@
+-learn about tables in js
+-create the user API request
+-fetch the data to the table
+-fetch the data from the second API
+-plan the buttons functions
+-create the delete button and his function
+learn how to make table's cell editable
+-create the edit button and his function
+    -change the buttons to confirm and cancel
+    -change the content of cell to input with the currunt value
+-create the confirm funcion
+-create the cancel funcion
+-create dropdown
+-create the search function
+-learn about local storage and use him - didn't make for edit and delete
+-style my table
+-learn the weather API
+-cerate the weather function
+
